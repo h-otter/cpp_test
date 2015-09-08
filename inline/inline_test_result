@@ -1,0 +1,16 @@
+TEST; InlineFunction()
+duration = 0.870657sec.
+TEST; StaticFunction()
+duration = 0.834252sec.
+TEST; ConstFunction()
+duration = 0.94697sec.
+TEST; DefaultFunction()
+duration = 0.829023sec.
+TEST; InlineFunction(long long int)
+duration = 0.981507sec.
+TEST; StaticFunction(long long int)
+duration = 1.00625sec.
+TEST; ConstFunction(long long int)
+duration = 1.01302sec.
+TEST; DefaultFunction(long long int)
+duration = 1.00517sec.
