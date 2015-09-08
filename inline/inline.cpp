@@ -16,7 +16,7 @@ int main(){
   long long int x;
   clock_t start, end;
 
-  std::cout << "TEST; InlineFunction()\n";
+  std::cout << "TEST: InlineFunction()\n";
   start = clock();
 
   for (int i = 0; i < FUNCTION_TIMES; i++){
@@ -26,7 +26,7 @@ int main(){
   end = clock();
   std::cout << "duration = " << (double)(end - start) / CLOCKS_PER_SEC << "sec.\n";
 
-  std::cout << "TEST; StaticFunction()\n";
+  std::cout << "TEST: StaticFunction()\n";
   start = clock();
 
   for (int i = 0; i < FUNCTION_TIMES; i++){
@@ -36,7 +36,7 @@ int main(){
   end = clock();
   std::cout << "duration = " << (double)(end - start) / CLOCKS_PER_SEC << "sec.\n";
 
-  std::cout << "TEST; ConstFunction()\n";
+  std::cout << "TEST: ConstFunction()\n";
   start = clock();
 
   for (int i = 0; i < FUNCTION_TIMES; i++){
@@ -46,7 +46,7 @@ int main(){
   end = clock();
   std::cout << "duration = " << (double)(end - start) / CLOCKS_PER_SEC << "sec.\n";
 
-  std::cout << "TEST; DefaultFunction()\n";
+  std::cout << "TEST: DefaultFunction()\n";
   start = clock();
 
   for (int i = 0; i < FUNCTION_TIMES; i++){
@@ -56,7 +56,7 @@ int main(){
   end = clock();
   std::cout << "duration = " << (double)(end - start) / CLOCKS_PER_SEC << "sec.\n";
 
-  std::cout << "TEST; InlineFunction(long long int)\n";
+  std::cout << "TEST: InlineFunction(long long int)\n";
   start = clock();
 
   for (int i = 0; i < FUNCTION_TIMES; i++){
@@ -66,7 +66,7 @@ int main(){
   end = clock();
   std::cout << "duration = " << (double)(end - start) / CLOCKS_PER_SEC << "sec.\n";
 
-  std::cout << "TEST; StaticFunction(long long int)\n";
+  std::cout << "TEST: StaticFunction(long long int)\n";
   start = clock();
 
   for (int i = 0; i < FUNCTION_TIMES; i++){
@@ -76,7 +76,7 @@ int main(){
   end = clock();
   std::cout << "duration = " << (double)(end - start) / CLOCKS_PER_SEC << "sec.\n";
 
-  std::cout << "TEST; ConstFunction(long long int)\n";
+  std::cout << "TEST: ConstFunction(long long int)\n";
   start = clock();
 
   for (int i = 0; i < FUNCTION_TIMES; i++){
@@ -86,7 +86,7 @@ int main(){
   end = clock();
   std::cout << "duration = " << (double)(end - start) / CLOCKS_PER_SEC << "sec.\n";
 
-  std::cout << "TEST; DefaultFunction(long long int)\n";
+  std::cout << "TEST: DefaultFunction(long long int)\n";
   start = clock();
 
   for (int i = 0; i < FUNCTION_TIMES; i++){
